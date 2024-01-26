@@ -26,7 +26,7 @@ body {
     font-family:'Roboto', sans-serif;
     line-height: 1.5;
     color: #293333;
-	background-color: #F3F1F1;
+	background-color: #FFFFFF;
 }
 
 h1,
@@ -36,8 +36,6 @@ h4,
 h5,
 h6 {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.75rem;
-	
 }
 
 
@@ -84,6 +82,7 @@ a:active {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	
 }
 
 .site-navigation ul {
@@ -98,6 +97,7 @@ a:active {
 	right: 0;
 	z-index: 2;
 	background-color: #F3F1F1;
+
 }
 
 .site-navigation.toggled ul {
@@ -152,21 +152,92 @@ a:active {
 
 /* Main
 --------------------------------------------- */
-main{
-	padding: 0 2rem;
+section{
+	padding: 0 3rem;
 }
 
-.card-img {
-	width: 200px;
-	height: auto;
+/* Header Page*/
+
+.page-header {
+	background-image: url('../images/Laptop-mobile-coffee-AdobeStock_330649225.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px; 
 }
+
+
+
+/* About Section*/
+
+.section-about{
+	background-image: url('../images/Laptop-mobile-coffee-AdobeStock_330649225.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px; 
+}
+
+
+
+/* About Section*/
+
+/* Projects Section*/
+
+
+.projects-wrapper h3 {
+	padding: 0;
+	margin: 0;
+}
+
+.project-item {
+	max-width: 20rem;
+	margin: 2rem auto;
+	box-shadow: 0px 0px 3px 2px #eee;
+}
+
+.card-text {
+	padding-bottom: 1rem;
+	margin-left: 0.5rem;
+}
+
+.tag-expertise{
+	font-size: .875rem
+}
+
+
+
+
+
+/* Contact Section*/
+
+
+
 
 /* Footer
 --------------------------------------------- */
 
 .site-footer {
 	background-color: #16FDFE;
+	color: #293333;
 	padding: 1rem;
-	
 }
 
+.site-footer nav ul {
+	list-style: none;
+	text-align: center;
+}
+
+.site-footer nav li {
+	padding: 0.5rem;
+} 
+
+@media (min-width 50em) {
+
+	.site-footer ul {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+}
