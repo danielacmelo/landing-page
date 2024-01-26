@@ -43,12 +43,7 @@ h6 {
 
 /* Links
 --------------------------------------------- */
-a {
-	color: #111;  /* mudar */
-	text-decoration: none;
-	font-style: 700;
-}
-
+a,
 a.visited {
 	color: #293333;
 }
@@ -68,15 +63,18 @@ a:active {
 
 }
 
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+.site-wrapper {
+	max-width: 120rem;
+	margin: 0 auto;
+}
 
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
 
-.site-wrapper {
-	max-width: 120rem;
-	margin: 0 auto;
-}
 
 
 /* Header
@@ -154,8 +152,13 @@ a:active {
 
 /* Main
 --------------------------------------------- */
-section{
+main{
 	padding: 0 2rem;
+}
+
+.card-img {
+	width: 200px;
+	height: auto;
 }
 
 /* Footer
@@ -164,5 +167,6 @@ section{
 .site-footer {
 	background-color: #16FDFE;
 	padding: 1rem;
+	
 }
 
