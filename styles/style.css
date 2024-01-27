@@ -24,7 +24,8 @@
 --------------------------------------------- */
 body {
     font-family:'Roboto', sans-serif;
-    line-height: 1.5;
+    line-height: 2;
+	font-size: 1rem;
     color: #293333;
 	background-color: #FFFFFF;
 }
@@ -38,6 +39,10 @@ h6 {
     font-family: 'Raleway', sans-serif;
 }
 
+h1{
+	padding-top: 2rem;
+	margin-top: 0;
+}
 
 /* Links
 --------------------------------------------- */
@@ -78,12 +83,11 @@ a:active {
 /* Header
 --------------------------------------------- */
 .site-header {
-	padding: 1rem;
+	padding: 1rem 1rem 0;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	
-}
+	justify-content: space-between;	
+	}
 
 .site-navigation ul {
 	list-style: none;
@@ -96,12 +100,12 @@ a:active {
 	left: 0;
 	right: 0;
 	z-index: 2;
-	background-color: #F3F1F1;
 
 }
 
 .site-navigation.toggled ul {
 	display: block;
+	background-color: #FFFFFF;
 }
 
 .site-navigation a {
@@ -156,18 +160,6 @@ section{
 	padding: 0 3rem;
 }
 
-/* Header Page*/
-
-.page-header {
-	background-image: url('../images/Laptop-mobile-coffee-AdobeStock_330649225.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 600px; 
-}
-
-
-
 /* About Section*/
 
 .section-about{
@@ -175,12 +167,10 @@ section{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 600px; 
+	height: 30rem; 
 }
 
 
-
-/* About Section*/
 
 /* Projects Section*/
 
@@ -222,6 +212,14 @@ section{
 
 /* Contact Section*/
 
+.section-contact ul {
+	list-style-type: none; 
+	padding: 0; 
+	margin: 0; 
+	display: flex;
+	justify-content: s;
+
+  }
 
 
 
