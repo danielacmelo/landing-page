@@ -310,13 +310,15 @@ section{
 }
 
 .section-contact ul {
-	margin: 2rem 2.5rem; 
 	padding: 0;
 	list-style-type: none;
 	display: flex; 
-	justify-content: space-between;
+	justify-content: center;
 }
 
+.section-contact li {
+	margin: 1rem;
+}
 
 .fa {
 	padding: 0;
