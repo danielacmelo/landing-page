@@ -23,11 +23,11 @@
 /* Typography
 --------------------------------------------- */
 body {
-    font-family:'Roboto', sans-serif;
-    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
 	font-size: 1rem;
-    color: #293333;
-	background-color: #FFFFFF;
+    line-height: 1.5;
+    color: #F5FEF9;
+	background-color: #4D448B;
 }
 
 h1,
@@ -36,11 +36,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Raleway', sans-serif;
+    color: #A8F2FE;
 }
 
 h1{
-	padding-top: 2rem;
+	padding-top: 1rem;
 	margin-top: 0;
 }
 
@@ -48,22 +48,12 @@ h1{
 --------------------------------------------- */
 a,
 a.visited {
-	color: #293333;
+	color: #F5FEF9;
+	text-decoration: none;
 }
 
-a:hover,
-a:focus {
-	color:#00FFFF;
-}
-
-a:focus {
-	outline: 1px dotted #00FFFF;
-}
-
-a:active {
-	color: #293333;
-	background-color: #00FFFF;
-
+a:hover {
+	color: #A8F2FE;
 }
 
 /*--------------------------------------------------------------
@@ -77,7 +67,10 @@ a:active {
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
-
+section{
+	padding: 0 3rem;
+	margin-bottom: 2rem
+}
 
 
 /* Header
@@ -87,7 +80,20 @@ a:active {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;	
-	}
+}
+
+.site-logo {
+	width: 2rem;
+	margin: 1rem;
+}	
+
+.site-logo img {
+	display: block;
+}
+
+.site-navigation {
+	padding: 0 1rem;
+}
 
 .site-navigation ul {
 	list-style: none;
@@ -96,24 +102,23 @@ a:active {
 	text-align: center;
 	display: none;
 	position: absolute;
-	top: 4.5rem;  
+	top: 4.5rem;
 	left: 0;
 	right: 0;
-	z-index: 2;
-
-}
-
-.site-navigation.toggled ul {
-	display: block;
-	background-color: #FFFFFF;
 }
 
 .site-navigation a {
 	display: block;
 	padding: 1rem;
-	font-size: 1.5rem;
-	text-decoration: none;
-}	
+	font-size: 1.25rem;
+}
+
+.site-navigation a:focus,
+.site-navigation a:active {
+	outline: 1px dotted #A8F2FE;
+	padding: 0.25em;
+}
+
 
 .menu-toggle {
 	display: block;
@@ -127,7 +132,13 @@ a:active {
 	outline: 1px dotted;
 }
 
-@media (min-width: 50em) {
+.site-navigation.toggled ul {
+	display: block;
+	background-color: #4D448B;
+}
+
+
+@media (min-width: 43.75em) {
 
 	.menu-toggle {
 		display: none;
@@ -156,23 +167,27 @@ a:active {
 
 /* Main
 --------------------------------------------- */
-section{
-	padding: 0 3rem;
+
+/* Title Section*/
+
+.section-title h1 {
+	font-size: 2rem;
+	margin-bottom: 0;
+	}
+
+.section-title p {
+	font-weight: bold;
+	margin-top: 0;
 }
 
 /* About Section*/
 
-.section-about{
-	background-image: url('../images/Laptop-mobile-coffee-AdobeStock_330649225.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 37.5rem; 
-}
 
+
+
+	
 
 /* Projects Section*/
-
 
 .projects-wrapper h3 {
 	padding: 0;
@@ -181,8 +196,13 @@ section{
 
 .project-item {
 	max-width: 20rem;
-	margin: 2rem auto;
+	margin: 3rem auto;
 	box-shadow: 0px 0px 3px 2px #eee;
+	border-radius: 1.2rem;
+}
+
+.project-item img {
+	border-radius: 1.2rem;
 }
 
 .card-text {
@@ -191,7 +211,7 @@ section{
 }
 
 .tag-expertise{
-	font-size: .875rem
+	font-size: .875rem;
 }
 
 @media (min-width: 50em) {
@@ -201,31 +221,31 @@ section{
 		display:flex;
 		flex-wrap: wrap;
 		justify-content: center;
+		gap: 10px;
 	}
 
 }
 
-
-
 /* Contact Section*/
 
-.section-contact {
-	margin: 4rem auto;
+
+.section-contact h2 {
+	font-size: 1rem;
+	color: #F5FEF9;
 }
+
+.section-contact ul {
+	margin: 2rem 2.5rem; 
+	padding: 0;
+	list-style-type: none;
+	display: flex; 
+	justify-content: space-between;
+}
+
 
 .fa {
 	padding: 0;
 	margin: 0;
-}
-
-.section-contact ul {
-	list-style-type: none;
-	display: flex; 
-	justify-content: space-between;
-  }
-
-.section-about li{
-	padding: 0.25rem;
 }
 
 
@@ -233,25 +253,9 @@ section{
 --------------------------------------------- */
 
 .site-footer {
-	background-color: #16FDFE;
-	color: #293333;
-	padding: 1rem;
-}
-
-.site-footer nav ul {
-	list-style: none;
+	background-color: #A8F2FE;
+	color: #4D448B;
+	padding: .875rem;
+	font-weight: 600;
 	text-align: center;
-}
-
-.site-footer nav li {
-	padding: 0.5rem;
-} 
-
-@media (min-width 50em) {
-
-	.site-footer ul {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}	
 }
