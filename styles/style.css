@@ -306,6 +306,16 @@ section{
 }	
 
 
+@media (min-width: 75rem){
+
+	.project-item {
+		max-width: 25rem;
+	}	
+
+}
+
+
+
 /* Contact Section*/
 
 .section-contact {
