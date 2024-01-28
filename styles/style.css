@@ -36,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #A8F2FE;
+    color: #C3F5FE;
 }
 
 h1{
@@ -54,7 +54,7 @@ a.visited {
 }
 
 a:hover {
-	color: #A8F2FE;
+	color: #C3F5FE;
 }
 
 
@@ -118,7 +118,7 @@ section{
 
 .site-navigation a:focus,
 .site-navigation a:active {
-	outline: 1px dotted #A8F2FE;
+	outline: 1px dotted #C3F5FE;
 	padding: 0.25em;
 }
 
@@ -365,7 +365,7 @@ section{
 --------------------------------------------- */
 
 .site-footer {
-	background-color: #A8F2FE;
+	background-color: #C3F5FE;
 	color: #4D448B;
 	padding: .875rem;
 	font-weight: 600;
