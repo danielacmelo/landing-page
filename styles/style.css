@@ -218,8 +218,14 @@ section{
 
 
 	.section-title h1 {
-		font-size: 4rem;
+		font-size: 3.8rem;
 	}	
+
+	
+	.section-title p {
+		font-size: 1.8rem;
+	}
+
 
 }
 
