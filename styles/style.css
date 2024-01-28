@@ -229,11 +229,11 @@ section{
 @media (min-width: 75rem){
 
 	.section-about h2{
-		font-size: 2rem;
+	font-size: 2rem;
 	}
 
 	.section-about p{
-	font-size: 1.25rem;
+	font-size: 1.125rem;
 	line-height: 1.5;
 
 	}
@@ -288,7 +288,7 @@ section{
 	}
 
 	.section-projects p{
-	font-size: 1.25rem;
+	font-size: 1.125rem;
 	
 	}
 	
