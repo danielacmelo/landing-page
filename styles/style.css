@@ -64,6 +64,7 @@ a:hover {
 	margin: 0 auto;
 }
 
+
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
@@ -166,6 +167,16 @@ section{
 }
 
 
+
+@media (min-width: 62rem) {
+	
+	.site-header{
+		padding: 0 10rem;
+	}
+}
+
+
+
 /* Main
 --------------------------------------------- */
 
@@ -184,10 +195,6 @@ section{
 
 @media (min-width: 37.5em) {
 
-	section{
-		margin-bottom: 2.5rem;
-	}
-
 	.text-title{
 		text-align: center;
 	}
@@ -202,10 +209,18 @@ section{
 }
 
 
+@media (min-width: 62rem) {
+
+
+	.section-title h1 {
+		font-size: 4rem;
+	}
+	
+}
+
 
 
 /* About Section*/
-
 
 
 
@@ -240,11 +255,12 @@ section{
 
 @media (min-width: 37.5rem) {
 
-	
+
 	.projects-wrapper {
 		display:flex;
 		flex-wrap: wrap;
-		justify-content: center;
+		justify-content: space-between;
+		align-items: center;
 		gap: 10px;
 	}
 
@@ -252,6 +268,10 @@ section{
 
 /* Contact Section*/
 
+
+.section-contact {
+	text-align: center;
+}
 
 .section-contact h2 {
 	font-size: 1rem;
@@ -271,6 +291,28 @@ section{
 	padding: 0;
 	margin: 0;
 }
+
+
+@media (min-width: 37.5rem) {
+
+	.section-contact h2 {
+		font-size: 1.25rem;
+	}
+	
+}	
+
+
+@media (min-width: 62rem) {
+
+	.section-contact h2 {
+		font-size: 2rem;
+	}
+	
+	
+
+}
+
+
 
 
 /* Footer
