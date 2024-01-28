@@ -167,12 +167,17 @@ section{
 }
 
 
-
 @media (min-width: 62rem) {
 	
 	.site-header{
-		padding: 0 10rem;
+		padding: 0 8rem;
 	}
+
+	section{
+		padding: 0 8rem;
+	}
+	
+
 }
 
 
@@ -219,12 +224,22 @@ section{
 }
 
 
-
 /* About Section*/
 
+@media (min-width: 75rem){
 
+	.section-about h2{
+		font-size: 2rem;
+	}
 
+	.section-about p{
+	font-size: 1.25rem;
+	line-height: 1.7;
+
+	}
 	
+}	
+
 
 /* Projects Section*/
 
@@ -261,10 +276,26 @@ section{
 		flex-wrap: wrap;
 		justify-content: space-between;
 		align-items: center;
-		gap: 10px;
+		gap: 2px;
 	}
 
 }
+
+
+@media (min-width: 75rem){
+
+	.section-projects h2{
+		font-size: 2rem;
+	}
+
+	.section-projects p{
+	font-size: 1.25rem;
+	
+	}
+	
+}	
+
+
 
 /* Contact Section*/
 
@@ -307,11 +338,17 @@ section{
 	.section-contact h2 {
 		font-size: 2rem;
 	}
-	
-	
 
 }
 
+
+@media (min-width: 75rem){
+
+	.section-contact p {
+		font-size: 1.25rem;
+	}
+
+}	
 
 
 
