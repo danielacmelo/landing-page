@@ -128,7 +128,11 @@ section{
 	background-color: transparent;
 	border: 0;
 	padding: 1rem;
+
 }
+
+.menu-toggle svg path {
+    fill: #C3F5FE;
 
 .menu-toggle:focus {
 	border: 0;
@@ -139,6 +143,8 @@ section{
 	display: block;
 	background-color: #4D448B;
 }
+
+
 
 
 @media (min-width: 37.5em) {
