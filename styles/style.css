@@ -133,6 +133,7 @@ section{
 
 .menu-toggle svg path {
     fill: #C3F5FE;
+}	
 
 .menu-toggle:focus {
 	border: 0;
