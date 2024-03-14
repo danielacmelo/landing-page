@@ -131,19 +131,19 @@ section{
 
 }
 
-.menu-toggle svg path {
-    fill: #C3F5FE;
-
 .menu-toggle:focus {
 	border: 0;
 	outline: 1px dotted;
 }
 
+.menu-toggle svg {
+    fill: #C3F5FE;
+}	
+
 .site-navigation.toggled ul {
 	display: block;
-	background-color: #4D448B;
+	background-color: #4D448B;;
 }
-
 
 
 
