@@ -135,6 +135,10 @@ section{
 	outline: 1px dotted;
 }
 
+.menu-toggle svg path {
+	fill: #C3F5FE;
+}
+
 .site-navigation.toggled ul {
 	display: block;
 	background-color: #4D448B;
